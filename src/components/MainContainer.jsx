@@ -1,7 +1,7 @@
 import React from 'react'
-import { alpha, makeStyles } from '@material-ui/core/styles';
-import VideoEmbed from './VideoEmbed'
-import Hero from './Hero'
+import { makeStyles } from '@material-ui/core/styles';
+
+import Hero from './Hero/Hero'
 import Support from './Support'
 import Team from './Team'
 import AWSTFooter from './AWSTFooter'
@@ -14,9 +14,9 @@ const useStyles = makeStyles((theme) => ({
         // height: 'fit-content',
         zIndex:-10,
         
-        justifyContent: 'center',
-        alignContent: 'center',
-        height: '50vh',
+        // justifyContent: 'center',
+        // alignContent: 'center',
+        // height: '50vh',
         
       },
     
@@ -28,10 +28,10 @@ export default function MainContainer() {
     return (
         <div className={classes.container}>
             <Hero />
-            <VideoEmbed/>
+            {/* <VideoEmbed/> */}
             <Support />
             <Team />
-            <AWSTFooter/>
+            {/* <AWSTFooter/> */}
         </div>
     )
 }
