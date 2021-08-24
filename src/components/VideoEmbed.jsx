@@ -3,23 +3,20 @@ import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles((theme) => ({
     embed: {
         // color: theme.palette.primary,
-        background: theme.palette.primary.dark,
-        width: '85vw',
-        height: 'auto',
+        // background: theme.palette.secondary.dark,
+        width: '85%',
+        height: '100%',
         position: "relative",
-        paddingBottom: "56.25%" /* 16:9 */,
-        paddingTop: '1vh',
-        paddingLeft: '1vw',
+        // paddingBottom: "56.25%" /* 16:9 */,
+        // paddingTop: "1vh" /* 16:9 */,
         margin: 'auto',
-        
-        height: 0
       },
       iframe: {
         position: "absolute",
-        top: 0,
+        top: 15,
         left: 0,
         width: "100%",
-        height: "100%"
+        height: "85.1%"
       }
            
   }));

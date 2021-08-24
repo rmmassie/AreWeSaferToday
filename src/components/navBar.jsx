@@ -2,9 +2,8 @@ import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import IconButton from '@material-ui/core/IconButton';
-import Typography from '@material-ui/core/Typography';
 import MenuIcon from '@material-ui/icons/Menu';
-import { alpha, makeStyles, ThemeProvider } from '@material-ui/core/styles';
+import { makeStyles, ThemeProvider } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -14,6 +13,7 @@ const useStyles = makeStyles((theme) => ({
     },
     menuButton: {
       marginRight: '1vw',
+      color: theme.palette.secondary.light
     },
     title: {
       flexGrow: 1,
@@ -32,7 +32,7 @@ export default function NavBar() {
             <IconButton
               edge="start"
               className={classes.menuButton}
-              color="inherit"
+             
               aria-label="open drawer"
             >
               <MenuIcon />
