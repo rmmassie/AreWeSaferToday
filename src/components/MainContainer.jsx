@@ -28,9 +28,13 @@ export default function MainContainer() {
     return (
         <div className={classes.container}>
             <Hero />
-            {/* <VideoEmbed/> */}
-            <Support />
+            {/* Oral History */}
+            {/* Civics Curriculum */}
+
+            {/* <Support /> */}
             <Team />
+            {/* Project Advisore */}
+            {/* Staff Advisors */}
             {/* <AWSTFooter/> */}
         </div>
     )
