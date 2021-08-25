@@ -7,7 +7,7 @@ let teamHash = [
         position: 1,
         title: 'Bob Massie',
         imagePath: './images/bmHead.png',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas neque purus, tristique at sagittis eget, pharetra nec nunc. Quisque cursus vitae nunc pulvinar vestibulum. Phasellus nec est dictum tortor efficitur sagittis venenatis varius dolor. Curabitur iaculis purus ac elit varius cursus. Sed pellentesque libero ac turpis sodales, in rutrum nibh laoreet. Vestibulum nec turpis vel erat scelerisque vulputate ut in nisi. Nullam a ligula felis. Integer et nisi sit amet lectus consequat vestibulum. Etiam faucibus ultrices risus ut elementum. Sed pellentesque lacus est, vel blandit nibh gravida ac. Phasellus aliquam libero in metus auctor, eget tincidunt velit porttitor. Pellentesque pellentesque rhoncus mi sit amet sollicitudin. Proin id mi sagittis, porttitor tellus sed, semper mauris.'
+        description: 'Executive Producer Bob Massie brings decades of experience to the Naptown Team. Massie has been honored with business awards (the Kelley School of Business, Inc. Magazine, Experian and others) as well as film awards (a dozen Telly Awards and most recently Laurels for a film that was “Official Selection” in the Heartland Film Festival.'
     },
     {
         position: 2,
@@ -19,7 +19,7 @@ let teamHash = [
         position: 3,
         title: 'PJ Wilson',
         imagePath: './images/pjwHead.png',
-        description: 'Paul Wilson Jr. (P.J.) has worked in the video/film production industry for nearly 25 years and currently owns and operates Beyond Above Media LLC, a full service media production company.  As a producer, director, writer, videographer and editor he has been a part of many award-winning productions including the critically acclaimed film In the Company of Men, winner of the 1997 Sundance Film Festival’s Filmmaker’s trophy.  With extensive experience working on numerous broadcast series for ESPN, A&E, Fine Living Channel, Urban Movie Channel, Military Channel and Discovery Channel, P.J. is also a producer for ABC News and regularly contributes to feature and breaking news stories for Good Morning America and World News Tonight. \nRecent Awards include: 2021 Hermes Creative Awards (Gold), 2021 Telly Awards (Gold & 2 Silver), 2020 Telly Awards (2 Gold & 2 Silver), 2020 W3 Awards (Silver) and 2019 Telly Awards (Silver)'
+        description: 'Paul Wilson Jr. (P.J.) has worked in the video/film production industry for nearly 25 years and currently owns and operates Beyond Above Media LLC, a full-service media production company. An award-winning producer, director, writer, videographer and editor, PJ has been a part of many award-winning productions.  His clients include ESPN, A&E, Discovery Channel, ABC News, Good Morning America and other major networks. '
     }
 ]
 
@@ -54,7 +54,7 @@ const useStyles = makeStyles((theme) => ({
             textAlign:'left',
             color: theme.palette.primary.dark,
             background: theme.palette.secondary.light,
-            fontSize: '28px',
+            fontSize: '20px',
             padding: '2vh'
            },
         teamTitle: {
